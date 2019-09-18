@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    display: block;
+    background-image: url(q5.jpg);
+    
+}
+/*EMPLOYES*/.t1{
+    border: 1px solid rgb(133, 41, 5);
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(99, 8, 8);
+    text-decoration-color: white;
+}
+/*Le message*/ .msg{
+    background-color: rgb(9, 255, 0);
+    background-size: cover;
+}
+/*Formulaire*/.form{
+    box-shadow: 10px 5px 20px 20px #dfdbdb;
+    text-align: center;
+    margin-left:300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    height: 600px;
+    background-color: rgb(241, 229, 229);
+    background-size: cover;
+}
+/*Label*/.label{
+    font-size: 10px;
+    height: 5px;
+    margin: auto;
+    
+}
+/*INPUT*/.form input{
+display: block;
+height: 25px;
+width: 80%;
+margin-left: 70px;
+}
+table{
+    border: 1px solid black;
+}
+.submit{
+    background-color: blue;
+    background-size: cover;
+}
+
+.liste{
+    text-align: right;
+    position: fixed;
+    z-index:9999999;
+    bottom: 0;
+    width: auto;
+    right: 1%;
+    cursor: pointer;
+    line-height: 0;
+    display:block; 
+}
+table {
+    border: 1px solid black;
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;  
+}
+

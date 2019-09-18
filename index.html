@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="index.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="index.php">
+        <div class="bloc">
+            <div class="col1">  
+                <label for="nombre1">Nombre1</label>
+                <input class="lign" type="text" name="nombre1" id="nombre1" placeholder="nombre1" required><br><br>
+                <label for="nombre2">Nombre2</label>
+                <input class="lign" type="text" name="nombre2" id="nombre2" placeholder="nombre2" required> <br><br>
+                <label for="operateur">Operateur</label>
+                <select name="operateur" id="operateur">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    $nombre1=$_POST{
+                        
+                    <option value="/">/</option>
+                    <option value="*">x</option>  
+                    <option value="%">modulo</option>
+                </select><br>
+                <input class="input1" type="submit" value="Calculer" placeholder="+">
+                <div>
+                    <textarea class="text" placeholder="Le Resultat"></textarea>
+                </div>
+            </div>
+        </div>
+</form>
+</body>
+</html>

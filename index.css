@@ -1,0 +1,39 @@
+body{
+  background-color: rgb(219, 24, 131);
+}
+.bloc{
+  /*ceci permet de centrer un div*/
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 500px;
+  width: 900px;
+  margin-left: -450px; 
+  margin-top: -250px;
+  color: white;
+  box-shadow: 20px black; 
+}
+.col1{
+  background-color: rgb(64, 189, 194);
+  width: 600px;
+}
+.input1{
+  margin-left: 1px;
+  margin-top: 20px;
+  border-radius: 30px;
+  width: 150px;
+  height: 30px;
+}
+.lign{
+  height: 25px;
+  width: 400px;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.text{
+    width: 99%;
+    height: 300px;
+    margin-bottom: 10px;
+}
